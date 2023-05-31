@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d [A-Z]* /tmp/u
+ls -d [A-Z]*/ /tmp/u
