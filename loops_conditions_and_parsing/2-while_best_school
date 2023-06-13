@@ -2,8 +2,8 @@
 # a while loop that prints best school 10 times
 
 i = 10
-while (i <= 10)
+while ((i <= 10))
 do 
-   echo "Best School"
-   ((i++))
+     echo "Best School"
+     ((i++))
 done
