@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 # the fizz buzz game
 
 for num in {1..100}
