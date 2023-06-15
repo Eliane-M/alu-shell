@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # displays numbers from 1 to 20 with different iterations after 4, 9, and 17
 
-count=0
+count=1
 
-while [ $count -lt 20 ]
+while [ $count -le 20 ]
 do
     echo "$count"
     case $count in
@@ -16,5 +16,6 @@ do
     '17')
 	    echo 'bad luck from Italy'
     esac
+    (( count++ ))
 done    
 	
