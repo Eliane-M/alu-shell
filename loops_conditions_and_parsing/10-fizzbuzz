@@ -1,0 +1,6 @@
+#!/usr/bin/env
+# the fizz buzz game
+
+for num in {1..100}
+do
+   if ( num 
