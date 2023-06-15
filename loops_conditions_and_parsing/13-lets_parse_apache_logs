@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # display a visitor IP along with a status codefrom the apache log file
 
-awk '{ $1, $9 }' apache-access.log
+awk '{ $1,$9 }' apache-access.log
