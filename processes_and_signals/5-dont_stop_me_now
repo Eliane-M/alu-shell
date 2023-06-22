@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Stops the previous iteration
 
-kill 3469
+kill "$(ps -x | pgrep -f '4-to_infinity_and_beyond')"
