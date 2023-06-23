@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# kills the previous process
+
+kill -s SIGKILL 3849
