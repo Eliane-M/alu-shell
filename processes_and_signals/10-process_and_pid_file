@@ -17,7 +17,7 @@ quit(){
 
 #Displays 'Y U no love me?!' when receiving a SIGINT signal and for SIGTERM
 trap 'echo "Y U mo love me?!"' SIGINT
-trap 'echo "I hate the kill command"' SIGTERM
+trap  SIGTERM
 
 # displays 'To infinity and beyond'
 while true; do
